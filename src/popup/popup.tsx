@@ -9,6 +9,7 @@ const App: React.FC<{}> = () => {
     <div>
       <WeatherCard city="Toronto" />
       <WeatherCard city="New York" />
+      <WeatherCard city="Error" />
     </div>
   );
 };
